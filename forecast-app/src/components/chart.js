@@ -10,7 +10,7 @@ const Chart = (props) => {
     return (
         <div>
             <Sparklines
-                height={60}
+                height={150}
                 width={180}
                 data={props.data}
             >
